@@ -1,0 +1,30 @@
+body{
+    font: Arial;
+    color: black;
+}
+
+section a, div a{
+    color: blue;
+}
+section a:hover, div a:hover{
+    color: darkblue;
+}
+section p{
+    color: gray;
+}
+section>a{
+    color: red;
+}
+.menu, .footer-text{
+    color: lightgray;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+}
+img+p{
+    color: #00f7ff;
+    background-color: #f0f0f0;
+    font-size: 25px;
+}
+
+

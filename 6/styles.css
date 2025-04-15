@@ -1,0 +1,10 @@
+.in{
+    display: inline;
+    background-color: aqua;
+    font-size: 25px;
+}
+.bl{
+    display: block;
+    background-color: lightblue;
+    font-size: 25px;
+}

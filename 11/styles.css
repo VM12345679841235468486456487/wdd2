@@ -1,0 +1,228 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.homepg{
+    width: 100%;
+    height: 600px;
+}
+
+.lista{
+    display: flex;
+    /*position: absolute;
+    left: 200px;*/
+    /*justify-content: space-between;*/
+    width: auto;
+    justify-content: right;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #fff;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+}
+
+.nav > a{
+    text-decoration: none;
+    color: #4E4E91;
+}
+
+.lista > button{
+    display: flex;
+    width: 120px;
+    /*font-size: 15px;*/
+    background-color: #ff4800;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.lista > img{
+    position: fixed;
+    left: 30px;
+}
+
+
+.nadpis{
+    position: absolute;
+    left: 100px;
+    top: 195px;
+    width: 463px;
+    height: 293px;
+
+}
+
+.nadpis > h1{
+    color: var(--Dark-Text, #1A1A3F);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.nadpis > p{
+    color: var(--Light-Text, #555);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.08px;
+}
+
+.nadpis > div{
+    display: flex;
+    width: 463px;
+}
+
+.nadpis > div > input{
+    border-radius: 0px 0px 20px 20px;
+    border: 3px solid #E5E5E5;
+    background: var(--White, #FFF);
+    display: block;
+    width: 300px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.nadpis > div > button{
+    border-radius: 0px 0px 20px 20px;
+    background: var(--Accent, #4E4E91);
+    width: 150px;
+    height: 49.769px;
+    flex-shrink: 0;
+    display: block;
+    /*width: auto;
+    height: 50px;*/
+    bottom: 0px;
+
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    /*right: 0px;*/
+}
+
+.homepg > img{
+    position: relative;
+    left: 663px;
+    top: 90px;
+    width: 652px;
+    height: 352px;
+    flex-shrink: 0;
+}
+
+.divider{
+    position: relative;
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    top: 120px;
+    width: auto;
+    height: 92px;
+    flex-shrink: 0;
+    background: #E8EBF3;
+}
+
+.divider > img{
+    box-sizing: content-box;
+    margin: auto 33px;
+    width: 160px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 152px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > h2{
+    color: var(--Dark-Text, #1A1A3F);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 46px; /* 127.778% */
+    /*justify-items: center;*/
+}
+
+.content > p{
+    width: 753px;
+    color: var(--Light-Text, #555);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+}
+
+.baner{
+    position: relative;
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: center;
+    top: 230px;
+}
+
+.baner > div{
+    width: 360px;
+    height: 120px;
+    margin: 0px 30px;
+}
+
+.pic{
+    border-radius: 0px 0px 20px 20px;
+    background: var(--Accent, #4E4E91);
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    justify-content: center ;
+}
+
+.text{
+    /*justify-content: space-between;*/
+    z-index: -1;
+    position: relative;
+    top: -25px;
+    width: 360px;
+    height: 95px;
+    border-radius: 0px 0px 20px 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 1px rgba(85, 85, 85, 0.25);
+    color: var(--Dark-Text, #1A1A3F);
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.036px;
+}
+
+.text > p{
+    margin-left: 32px;
+    color: var(--Dark-Text, #1A1A3F);
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.036px;    
+}

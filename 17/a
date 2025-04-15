@@ -1,0 +1,71 @@
+/* main.scss */
+
+@import 'components/buttons';
+@import 'components/variables';
+@import 'components/mixins';
+@import 'components/extends';
+@import 'components/loops';
+
+/* components/_variables.scss */
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Arial', sans-serif;
+
+/* components/_mixins.scss */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* components/_extends.scss */
+%button-style {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* components/_loops.scss */
+@for $i from 1 through 3 {
+  .box-#{$i} {
+    width: 100px * $i;
+    height: 100px * $i;
+  }
+}
+
+/* components/_buttons.scss */
+.button {
+  @extend %button-style;
+  background-color: $primary-color;
+  color: white;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+/* index.html */
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS Projekt</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vítej na mém SCSS webu</h1>
+        <p>Toto je příklad stránky stylované pomocí SCSS.</p>
+        <button class="button">Klikni mě</button>
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+    </div>
+</body>
+</html>
+
+/* Porovnání s CSS */
+/* SCSS mi umožnilo lépe organizovat kód, snadno opakovat styly a využít logiku v CSS. */
+/* Custom properties mohou nahradit proměnné, ale cykly a vnoření se v čistém CSS dělají hůř. */

@@ -1,0 +1,23 @@
+*{
+    font-size: 20px;
+}
+.in{
+    display: inline;
+    background-color: cyan;
+    color: darkblue;
+}
+.flex{
+    display: flex;
+    background-color: blue;
+    color: cyan;
+}
+.block{
+    display: block;
+    background-color: aqua;
+    color: darkblue;
+}
+.inblock{
+    display: inline-block;
+    background-color: blue;
+    color: cyan;
+}

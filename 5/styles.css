@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: #ddd;
+    padding: 10px;
+    border: 5px solid;
+    border-color: #111;
+    text-align: center;
+}
+.box2{
+    width: 655px;
+    height: 425px;
+    max-width: 800px;
+    min-width: 400px;
+    max-height: 500px;
+    min-height: 300px;
+    padding: 10px;
+    border: 5px solid black;
+    text-align: center;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

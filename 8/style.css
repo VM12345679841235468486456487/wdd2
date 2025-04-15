@@ -1,0 +1,72 @@
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+
+    background-color: lightgray;
+}
+.lista > a{
+    width: 120px;
+    height: 80px;
+
+    color: black;
+    display: block;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    border: 4px solid black;
+    margin: 3px;
+}
+.produkty{
+    width: 300px;
+    height: 100px;
+    display: felx;
+    flex-direction: column;
+}
+.produkt{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 12.5px;
+}
+.produkt>img{
+    width: 75px;
+    height: 75px;
+    display: block;
+}
+.produkt>div{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+.produkt>div>div{
+    display: block;
+    width: 200px;
+    height: 37.5px;
+    font-size: 20px;
+}
+.produkt>div>button{
+    background-color: lightblue;
+    color: black;
+    width: 100px;
+    height: 37.5px;
+}
+.produkt>div>button:hover{
+    background-color: #c0ffff;
+    color: darkblue;
+}
+.galerie{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.galerie>img{
+    display: block;
+    height: 300px;
+    width: auto;
+    padding: 5px;
+}

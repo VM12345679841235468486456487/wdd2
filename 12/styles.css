@@ -1,0 +1,37 @@
+#a{
+    background: #00ffff;
+    font-size: 40px;
+}
+
+#b{
+    background-color: red;
+    font-size: 20px;
+}
+
+
+@media screen and (width <= 400px) {
+    #a{
+        background-color: purple;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #b{
+        background-color: yellow;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media screen and (800px <= width){
+    #a{
+        display: flex;
+        height: 100vw;
+        width: 100vw;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 50vw;
+        border: #000 solid 5px;
+        background-color: greenyellow;
+        padding: 10vw;
+    }
+}
+
